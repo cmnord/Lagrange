@@ -19,27 +19,24 @@ body {
   }
 }
 
-h1{
+h1 {
   font-size: 2rem;
 }
 
-h1 a {
+h1 a,
+h2 a,
+h3 a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $sans-serif-font-family;
   color: $dark-gray-color;
-}
-
-a {
-  text-decoration: underline;
-  color: $dark-gray-color;
-}
-
-a:hover {
-  color: $link-color;
-  border-bottom: none;
 }
 
 img {
@@ -70,11 +67,14 @@ table {
   width: 100%;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
 }
 
-th, td {
+th,
+td {
   padding: 15px;
   text-align: left;
 }

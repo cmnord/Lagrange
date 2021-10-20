@@ -66,3 +66,18 @@
   padding: 5px;
   @include social-media-icon($rss-color, $icon-transition-time);
 }
+
+.fa-book {
+  padding: 5px;
+  @include social-media-icon($goodreads-color, $icon-transition-time);
+}
+
+.fa-podcast {
+  padding: 5px;
+  @include social-media-icon($podcast-color, $icon-transition-time);
+}
+
+.fa-podcast:hover {
+  /* https://www.schemecolor.com/apple-podcasts-app-icon-2017-colors.php */
+  color: #872EC4;
+}

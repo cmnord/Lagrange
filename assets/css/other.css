@@ -1,0 +1,8 @@
+.class-number {
+  /* undo italics */
+  font-style: normal;
+  float: right;
+  color: #9a9a9a;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 0.8rem;
+}
